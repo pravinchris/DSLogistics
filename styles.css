@@ -191,7 +191,7 @@
   }
 
   .gradient-text {
-    background: linear-gradient(135deg, var(--color-primary), var(--cyan-400));
+    background: linear-gradient(135deg, var(--cyan-400), var(--white));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -252,7 +252,7 @@
   }
 
   .btn-tertiary {
-    color: var(--color-primary);
+    color: var(--white);
     font-weight: 600;
     padding-inline: 0;
   }
@@ -535,21 +535,23 @@
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 1.5px;
-    color: var(--cyan-600);
-    background-color: var(--color-accent-dim);
+    color: var(--white);
+    background-color: rgba(0, 210, 255, 0.3);
     padding: var(--space-xs) var(--space-sm);
     border-radius: 20px;
     margin-block-end: var(--space-sm);
+    border: 1px solid rgba(0, 210, 255, 0.5);
   }
 
   .hero-title {
     font-size: clamp(2.5rem, 1rem + 4vw, 3.8rem); /* responsive typography */
     margin-block-end: var(--space-md);
+    color: var(--white);
   }
 
   .hero-subtitle {
     font-size: 1.15rem;
-    color: var(--color-text-sub);
+    color: rgba(255, 255, 255, 0.9);
     margin-block-end: var(--space-lg);
     max-width: 540px;
   }
