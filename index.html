@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="DS Logistics - Simplify your global trade with our intelligent supply chain platform. Get real-time visibility, automated customs clearance, and carbon-optimized shipping routes.">
+  <meta name="keywords" content="logistics, supply chain, freight forwarding, ocean freight, air freight, digital customs, global trade">
+  <title>DS Logistics - Modern Supply Chain & Global Logistics Platform</title>
+  
+  <!-- Modern Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header Navigation -->
+  <header id="main-header" class="site-header">
+    <div class="header-container">
+      <a href="#" class="logo" id="header-logo" aria-label="DS Logistics Homepage">
+        <span class="logo-accent">DS</span>Logistics<span class="logo-dot">.</span>
+      </a>
+      
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-menu" id="nav-menu-desktop" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#services" class="nav-link">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="#platform" class="nav-link">Technology</a>
+          </li>
+          <li class="nav-item">
+            <a href="#network" class="nav-link">Network</a>
+          </li>
+          <li class="nav-item">
+            <a href="#value-props" class="nav-link">Why DS Logistics</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Action Buttons -->
+      <div class="header-actions">
+        <button id="theme-toggle" class="btn-icon" aria-label="Toggle dark mode">
+          <!-- Moon Icon (Dark Mode Option) -->
+          <svg class="icon moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+          <!-- Sun Icon (Light Mode Option) -->
+          <svg class="icon sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+        </button>
+        <a href="#hero-widget" class="btn btn-secondary nav-login-btn">Log In</a>
+        <a href="#hero-widget" class="btn btn-primary nav-quote-btn">Get a Quote</a>
+        
+        <!-- Mobile Menu Toggle Button -->
+        <button id="mobile-menu-btn" class="hamburger-btn" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer Menu -->
+    <div class="mobile-drawer" id="mobile-drawer" aria-hidden="true">
+      <nav class="mobile-nav" aria-label="Mobile Navigation">
+        <ul class="mobile-nav-list">
+          <li><a href="#services" class="mobile-nav-link">Services</a></li>
+          <li><a href="#platform" class="mobile-nav-link">Technology</a></li>
+          <li><a href="#network" class="mobile-nav-link">Network</a></li>
+          <li><a href="#value-props" class="mobile-nav-link">Why DS Logistics</a></li>
+          <li class="mobile-divider"></li>
+          <li><a href="#hero-widget" class="btn btn-secondary mobile-btn">Log In</a></li>
+          <li><a href="#hero-widget" class="btn btn-primary mobile-btn">Get a Quote</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="hero-bg-visual" aria-hidden="true">
+        <!-- SVG Global Shipping Line Network Background -->
+        <svg viewBox="0 0 1440 600" preserveAspectRatio="xMidYMid slice" class="hero-network-svg">
+          <path d="M 100 250 Q 350 100 600 300 T 1100 200" fill="none" stroke="currentColor" stroke-width="1.5" stroke-dasharray="8 4" opacity="0.15" />
+          <path d="M 200 450 Q 550 200 900 400 T 1300 150" fill="none" stroke="currentColor" stroke-width="1.5" stroke-dasharray="10 5" opacity="0.1" />
+          <path d="M 400 100 Q 800 250 1200 100" fill="none" stroke="currentColor" stroke-width="1" opacity="0.08" />
+          <circle cx="100" cy="250" r="4" fill="var(--color-accent)" opacity="0.6" />
+          <circle cx="600" cy="300" r="5" fill="var(--color-accent)" />
+          <circle cx="1100" cy="200" r="4" fill="var(--color-accent)" opacity="0.6" />
+          <circle cx="200" cy="450" r="3" fill="var(--color-accent)" opacity="0.4" />
+          <circle cx="900" cy="400" r="5" fill="var(--color-accent)" />
+        </svg>
+      </div>
+
+      <div class="hero-container container">
+        <div class="hero-text-block">
+          <div class="hero-tag">Intelligent Trade Platform</div>
+          <h1 class="hero-title">Global Trade, <br><span class="gradient-text">Streamlined</span> & Simplified.</h1>
+          <p class="hero-subtitle">
+            DS Logistics unites freight forwarding, automated customs clearance, and carbon-conscious logistics into a single, intuitive dashboard. Take complete control of your global supply chain.
+          </p>
+          <div class="hero-ctas">
+            <a href="#platform" class="btn btn-primary btn-lg">Explore the Platform</a>
+            <a href="#services" class="btn btn-tertiary btn-lg">
+              Our Services
+              <svg class="icon arrow-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Interactive Shipment Tracker / Quote Widget -->
+        <div class="hero-widget-card" id="hero-widget">
+          <div class="widget-tabs" role="tablist">
+            <button class="widget-tab active" id="tab-track" role="tab" aria-selected="true" aria-controls="panel-track">
+              Track Cargo
+            </button>
+            <button class="widget-tab" id="tab-quote" role="tab" aria-selected="false" aria-controls="panel-quote">
+              Instant Quote
+            </button>
+          </div>
+
+          <div class="widget-panels">
+            <!-- Panel 1: Track Shipment -->
+            <div class="widget-panel active" id="panel-track" role="tabpanel" aria-labelledby="tab-track">
+              <p class="widget-description">Enter your Container, Booking, or Bill of Lading (B/L) ID to simulate shipment visibility.</p>
+              <form id="tracker-form" class="widget-form">
+                <div class="input-group">
+                  <label for="track-id" class="sr-only">Shipment ID</label>
+                  <input type="text" id="track-id" placeholder="e.g. DSL4782093" required autocomplete="off">
+                  <button type="submit" class="btn btn-primary">Track</button>
+                </div>
+              </form>
+              <div id="tracker-results" class="tracker-results-container hidden">
+                <!-- Dynamic Content Generated by JS -->
+              </div>
+            </div>
+
+            <!-- Panel 2: Instant Quote -->
+            <div class="widget-panel" id="panel-quote" role="tabpanel" aria-labelledby="tab-quote" hidden>
+              <p class="widget-description">Select your parameters to calculate cost estimates, transit times, and carbon offset options.</p>
+              <form id="quote-form" class="widget-form">
+                <div class="form-grid">
+                  <div class="form-field">
+                    <label for="quote-origin">Origin</label>
+                    <select id="quote-origin" required>
+                      <option value="" disabled selected>Select Origin Port</option>
+                      <option value="CNSHA">Shanghai, China (CNSHA)</option>
+                      <option value="INMAA">Chennai, India (INMAA)</option>
+                      <option value="SGPIN">Singapore (SGPIN)</option>
+                      <option value="DEHAM">Hamburg, Germany (DEHAM)</option>
+                    </select>
+                  </div>
+                  <div class="form-field">
+                    <label for="quote-destination">Destination</label>
+                    <select id="quote-destination" required>
+                      <option value="" disabled selected>Select Destination Port</option>
+                      <option value="USLAX">Los Angeles, USA (USLAX)</option>
+                      <option value="NLRTM">Rotterdam, Netherlands (NLRTM)</option>
+                      <option value="AEDXB">Dubai, UAE (AEDXB)</option>
+                      <option value="GBFXT">Felixstowe, UK (GBFXT)</option>
+                    </select>
+                  </div>
+                  <div class="form-field">
+                    <label for="quote-mode">Transport Mode</label>
+                    <select id="quote-mode" required>
+                      <option value="ocean-fcl">Ocean FCL (Full Container)</option>
+                      <option value="ocean-lcl">Ocean LCL (Shared Container)</option>
+                      <option value="air-express">Air Freight (Premium)</option>
+                    </select>
+                  </div>
+                  <div class="form-field">
+                    <label for="quote-weight">Weight (kg)</label>
+                    <input type="number" id="quote-weight" placeholder="e.g. 5000" required min="1">
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Calculate Instant Estimate</button>
+              </form>
+              <div id="quote-results" class="quote-results-container hidden">
+                <!-- Dynamic Content Generated by JS -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Key Value Propositions -->
+    <section class="value-props-section" id="value-props">
+      <div class="container">
+        <div class="section-header text-center">
+          <h2 class="section-title">Built for Modern Global Supply Chains</h2>
+          <p class="section-subtitle">DS Logistics provides a robust technology suite that empowers shippers to navigate complex trade lanes with confidence.</p>
+        </div>
+
+        <div class="value-grid">
+          <!-- Value Card 1 -->
+          <article class="value-card">
+            <div class="card-icon-wrapper">
+              <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <circle cx="12" cy="12" r="3"></circle>
+                <line x1="12" y1="1" x2="12" y2="3"></line>
+                <line x1="12" y1="21" x2="12" y2="23"></line>
+                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                <line x1="1" y1="12" x2="3" y2="12"></line>
+                <line x1="21" y1="12" x2="23" y2="12"></line>
+                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+              </svg>
+            </div>
+            <h3 class="card-title">Real-Time GPS Tracking</h3>
+            <p class="card-text">Monitor ocean container coordinates, port milestones, vessel telemetry, and predictive arrival times from origin to destination.</p>
+          </article>
+
+          <!-- Value Card 2 -->
+          <article class="value-card">
+            <div class="card-icon-wrapper">
+              <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                <line x1="16" y1="2" x2="16" y2="6"></line>
+                <line x1="8" y1="2" x2="8" y2="6"></line>
+                <line x1="3" y1="10" x2="21" y2="10"></line>
+              </svg>
+            </div>
+            <h3 class="card-title">Automated Customs</h3>
+            <p class="card-text">DS Logistics' digital broker engine parses customs documents, maps HS codes, and submits filings directly to port agencies in minutes.</p>
+          </article>
+
+          <!-- Value Card 3 -->
+          <article class="value-card">
+            <div class="card-icon-wrapper">
+              <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21.21 15.89A10 10 0 1 1 8 2.83"></path>
+                <path d="M22 12A10 10 0 0 0 12 2v10z"></path>
+              </svg>
+            </div>
+            <h3 class="card-title">Actionable Trade Data</h3>
+            <p class="card-text">Optimize supply chains with structured reports on landing costs, port congestion, carrier transit averages, and warehouse stock levels.</p>
+          </article>
+
+          <!-- Value Card 4 -->
+          <article class="value-card">
+            <div class="card-icon-wrapper">
+              <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
+            </div>
+            <h3 class="card-title">Sustainable Carbon Offsets</h3>
+            <p class="card-text">Calculate greenhouse gas emission indexes for ocean, air, and rail route options, and support certified clean energy projects.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Platform Showcase Section -->
+    <section class="platform-section" id="platform">
+      <div class="container">
+        <div class="section-header text-center">
+          <h2 class="section-title">The DS Logistics Platform</h2>
+          <p class="section-subtitle">Take control of your cargo from booking to delivery through an interactive, dashboard interface.</p>
+        </div>
+
+        <div class="platform-layout">
+          <!-- Dashboard Tabs Selector -->
+          <div class="platform-tabs" role="tablist" aria-label="Platform Dashboard Tabs">
+            <button class="platform-tab-btn active" id="tab-dashboard-control" role="tab" aria-selected="true" aria-controls="panel-dashboard-control">
+              <span class="tab-badge">01</span>
+              <span class="tab-label-group">
+                <span class="tab-title">Shipment Control</span>
+                <span class="tab-desc">Live route tracker & milestones</span>
+              </span>
+            </button>
+            <button class="platform-tab-btn" id="tab-dashboard-customs" role="tab" aria-selected="false" aria-controls="panel-dashboard-customs">
+              <span class="tab-badge">02</span>
+              <span class="tab-label-group">
+                <span class="tab-title">Smart Customs</span>
+                <span class="tab-desc">Document auditing & filings</span>
+              </span>
+            </button>
+            <button class="platform-tab-btn" id="tab-dashboard-analytics" role="tab" aria-selected="false" aria-controls="panel-dashboard-analytics">
+              <span class="tab-badge">03</span>
+              <span class="tab-label-group">
+                <span class="tab-title">Trade Analytics</span>
+                <span class="tab-desc">Cost trends & carbon indices</span>
+              </span>
+            </button>
+          </div>
+
+          <!-- Interactive Simulated App Screen -->
+          <div class="platform-viewport-wrapper">
+            <div class="platform-viewport-header">
+              <div class="window-controls">
+                <span class="dot close"></span>
+                <span class="dot minimize"></span>
+                <span class="dot expand"></span>
+              </div>
+              <div class="viewport-title-bar">dslogistics_platform_v2.0.8</div>
+              <div class="viewport-user-menu">
+                <span class="user-avatar" aria-hidden="true">JD</span>
+                <span class="user-name">John Doe (Acme Corp)</span>
+              </div>
+            </div>
+            
+            <div class="platform-viewport-body">
+              <!-- Showcase Panel 1: Shipment Control -->
+              <div class="showcase-panel active" id="panel-dashboard-control" role="tabpanel" aria-labelledby="tab-dashboard-control">
+                <div class="dashboard-header-row">
+                  <h4>Shipment: #DSL-2026-09</h4>
+                  <span class="status-pill status-active animate-pulse">Sailing</span>
+                </div>
+                
+                <div class="shipment-route-summary">
+                  <div class="route-point">
+                    <span class="point-code">CNSHA</span>
+                    <span class="point-name">Shanghai Port</span>
+                    <span class="point-date">DEP: June 10, 2026</span>
+                  </div>
+                  <div class="route-line-visual">
+                    <span class="vessel-icon-wrapper">
+                      <!-- Cargo Ship Icon -->
+                      <svg class="icon ship-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M2 22h20M2 19h20M19 19V11a2 2 0 0 0-2-2h-3v10M14 9V6a2 2 0 0 0-2-2H9v15"></path>
+                      </svg>
+                    </span>
+                    <div class="route-progress-bar">
+                      <div class="route-progress-fill" style="width: 65%;"></div>
+                    </div>
+                  </div>
+                  <div class="route-point">
+                    <span class="point-code">USLAX</span>
+                    <span class="point-name">Los Angeles Port</span>
+                    <span class="point-date">ETA: June 25, 2026</span>
+                  </div>
+                </div>
+
+                <div class="timeline-stepper">
+                  <div class="timeline-step done">
+                    <div class="step-bullet"></div>
+                    <div class="step-info">
+                      <span class="step-title">Cargo Received at Origin CFS</span>
+                      <span class="step-meta">June 08, 09:30 UTC - Shanghai</span>
+                    </div>
+                  </div>
+                  <div class="timeline-step done">
+                    <div class="step-bullet"></div>
+                    <div class="step-info">
+                      <span class="step-title">Vessel Departed Port (Vessel: Oceanus IV)</span>
+                      <span class="step-meta">June 10, 14:15 UTC - Shanghai Port</span>
+                    </div>
+                  </div>
+                  <div class="timeline-step current">
+                    <div class="step-bullet"></div>
+                    <div class="step-info">
+                      <span class="step-title">In Transit (Mid-Pacific Ocean Crossing)</span>
+                      <span class="step-meta">June 16, 22:42 UTC - Lat: 32.89 N, Lon: -164.21 W</span>
+                    </div>
+                  </div>
+                  <div class="timeline-step upcoming">
+                    <div class="step-bullet"></div>
+                    <div class="step-info">
+                      <span class="step-title">Port Milestone: Vessel Arrival</span>
+                      <span class="step-meta">ETA June 25 - Port of Los Angeles</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Showcase Panel 2: Smart Customs -->
+              <div class="showcase-panel" id="panel-dashboard-customs" role="tabpanel" aria-labelledby="tab-dashboard-customs" hidden>
+                <div class="dashboard-header-row">
+                  <h4>Customs Filing Center</h4>
+                  <button class="btn btn-secondary btn-sm" id="btn-upload-test" type="button">Upload Document</button>
+                </div>
+
+                <div class="customs-document-grid">
+                  <div class="document-card">
+                    <div class="doc-meta">
+                      <span class="doc-icon">📄</span>
+                      <div class="doc-details">
+                        <span class="doc-name">Commercial_Invoice_ACME_782.pdf</span>
+                        <span class="doc-size">142 KB</span>
+                      </div>
+                    </div>
+                    <span class="doc-status status-verified">Verified</span>
+                  </div>
+
+                  <div class="document-card">
+                    <div class="doc-meta">
+                      <span class="doc-icon">📄</span>
+                      <div class="doc-details">
+                        <span class="doc-name">Bill_of_Lading_SH-LAX.pdf</span>
+                        <span class="doc-size">310 KB</span>
+                      </div>
+                    </div>
+                    <span class="doc-status status-verified">Verified</span>
+                  </div>
+
+                  <div class="document-card">
+                    <div class="doc-meta">
+                      <span class="doc-icon">📄</span>
+                      <div class="doc-details">
+                        <span class="doc-name">HS_Classification_Manifest.json</span>
+                        <span class="doc-size">45 KB</span>
+                      </div>
+                    </div>
+                    <span class="doc-status status-pending">Auditing</span>
+                  </div>
+                </div>
+
+                <div class="customs-flow-box">
+                  <h5>Engine Analysis: HS Code Harmonization</h5>
+                  <div class="analysis-results">
+                    <div class="analysis-row">
+                      <span class="item-desc">High-Grade Industrial Ball Bearings</span>
+                      <span class="hs-code">HS Code: 8482.10.50</span>
+                      <span class="confidence-badge">99.4% Match</span>
+                    </div>
+                    <div class="analysis-row">
+                      <span class="item-desc">Reinforced Copper Connectors</span>
+                      <span class="hs-code">HS Code: 8536.90.85</span>
+                      <span class="confidence-badge">97.8% Match</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Showcase Panel 3: Trade Analytics -->
+              <div class="showcase-panel" id="panel-dashboard-analytics" role="tabpanel" aria-labelledby="tab-dashboard-analytics" hidden>
+                <div class="dashboard-header-row">
+                  <h4>Trade Metrics & Carbon Ledger</h4>
+                  <div class="date-selector">Last 30 Days</div>
+                </div>
+
+                <div class="metrics-dashboard-grid">
+                  <div class="metric-mini-card">
+                    <span class="mini-label">Total Cargo Spend</span>
+                    <span class="mini-value">$142,500.00</span>
+                    <span class="mini-change pos">↑ 4.2% MoM</span>
+                  </div>
+                  <div class="metric-mini-card">
+                    <span class="mini-label">Average Transit Days</span>
+                    <span class="mini-value">16.4 Days</span>
+                    <span class="mini-change neg">↓ 2.1 Days</span>
+                  </div>
+                  <div class="metric-mini-card">
+                    <span class="mini-label">CO2 Carbon Ledger</span>
+                    <span class="mini-value">84.2 Metric Tons</span>
+                    <span class="mini-change pos">↓ 12% via Consolidations</span>
+                  </div>
+                </div>
+
+                <div class="chart-container-showcase">
+                  <svg class="analytics-svg-graph" viewBox="0 0 500 150">
+                    <!-- Grid Lines -->
+                    <line x1="0" y1="30" x2="500" y2="30" stroke="currentColor" opacity="0.05" />
+                    <line x1="0" y1="70" x2="500" y2="70" stroke="currentColor" opacity="0.05" />
+                    <line x1="0" y1="110" x2="500" y2="110" stroke="currentColor" opacity="0.05" />
+                    
+                    <!-- Graph Path (Ocean volume trends) -->
+                    <path d="M 10 130 Q 100 110 180 80 T 350 40 T 490 20" fill="none" stroke="var(--color-accent)" stroke-width="3" />
+                    <!-- Graph Dots -->
+                    <circle cx="10" cy="130" r="4" fill="var(--color-accent)" />
+                    <circle cx="180" cy="80" r="4" fill="var(--color-accent)" />
+                    <circle cx="350" cy="40" r="4" fill="var(--color-accent)" />
+                    <circle cx="490" cy="20" r="4" fill="var(--color-accent)" />
+                    
+                    <!-- Area Fill -->
+                    <path d="M 10 130 Q 100 110 180 80 T 350 40 T 490 20 L 490 140 L 10 140 Z" fill="var(--color-accent)" opacity="0.08" />
+                  </svg>
+                  <div class="chart-labels">
+                    <span>Week 1</span>
+                    <span>Week 2</span>
+                    <span>Week 3</span>
+                    <span>Week 4</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Global Network Statistics Section -->
+    <section class="stats-section" id="network">
+      <div class="stats-bg-dots" aria-hidden="true"></div>
+      <div class="container stats-container">
+        <div class="stat-item">
+          <span class="stat-number" id="stat-countries">0</span>
+          <span class="stat-label">Countries Connected</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" id="stat-containers">0k</span>
+          <span class="stat-label">TEUs Shipped Annually</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" id="stat-ontime">0%</span>
+          <span class="stat-label">On-Time Reliability</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" id="stat-carbon">0t</span>
+          <span class="stat-label">CO2 Carbon Offsets</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Grid Section -->
+    <section class="services-section" id="services">
+      <div class="container">
+        <div class="section-header text-center">
+          <h2 class="section-title">Comprehensive Logistics Services</h2>
+          <p class="section-subtitle">DS Logistics provides a robust network and end-to-end capabilities across every major mode of transit.</p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Ocean Freight Card -->
+          <article class="service-card">
+            <div class="service-card-visual ocean-service">
+              <img src="images/hero-shipping.png" alt="Ocean container ship loaded with cargo at sunset" class="service-card-img" loading="lazy">
+            </div>
+            <div class="service-card-content">
+              <h3>Ocean Freight (FCL/LCL)</h3>
+              <p>Reliable ocean freight solutions with fixed departures. We manage negotiations, container consolidation, and terminal tracking.</p>
+              <ul class="service-bullets">
+                <li>Direct contract rates with major ocean alliances</li>
+                <li>Strategic consolidation centers globally</li>
+                <li>Drayage and last-mile port clearance</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- Air Freight Card -->
+          <article class="service-card">
+            <div class="service-card-visual air-service">
+              <img src="images/air-freight.png" alt="Cargo airplane flying over a port city at sunrise" class="service-card-img" loading="lazy">
+            </div>
+            <div class="service-card-content">
+              <h3>Air Freight</h3>
+              <p>Express air cargo scheduling for urgent supply lines. Access key routing space with direct customs synchronization.</p>
+              <ul class="service-bullets">
+                <li>Next-flight-out expedited routing</li>
+                <li>Temperature-controlled cool chain logs</li>
+                <li>Door-to-door tracking & delivery clearances</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- Warehousing & Distribution Card -->
+          <article class="service-card">
+            <div class="service-card-visual warehousing-service">
+              <img src="images/warehouse.png" alt="Aerial view of a modern warehouse distribution center" class="service-card-img" loading="lazy">
+            </div>
+            <div class="service-card-content">
+              <h3>Warehousing & Distribution</h3>
+              <p>Scalable storage space at core global trade nodes. Automated pick-pack routing, fulfillment, and container cross-docking.</p>
+              <ul class="service-bullets">
+                <li>Bonded storage & customs warehouses</li>
+                <li>API-integrated warehouse inventory</li>
+                <li>E-commerce replenishment routing</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section" id="testimonials">
+      <div class="container">
+        <div class="section-header text-center">
+          <h2 class="section-title">Trusted by Industry Leaders</h2>
+          <p class="section-subtitle">See how leading companies across the globe rely on DSLogistics to power their supply chains.</p>
+        </div>
+
+        <!-- Client Logo Marquee -->
+        <div class="client-logos-bar">
+          <div class="logos-track">
+            <span class="client-logo-text">Acme Corp</span>
+            <span class="client-logo-text">Vertex Industries</span>
+            <span class="client-logo-text">NovaTrade Co.</span>
+            <span class="client-logo-text">Pinnacle Retail</span>
+            <span class="client-logo-text">Atlas Manufacturing</span>
+            <span class="client-logo-text">Meridian Textiles</span>
+            <span class="client-logo-text">GlobalEdge Tech</span>
+            <span class="client-logo-text">Solaris Pharma</span>
+            <!-- Duplicate for seamless loop -->
+            <span class="client-logo-text">Acme Corp</span>
+            <span class="client-logo-text">Vertex Industries</span>
+            <span class="client-logo-text">NovaTrade Co.</span>
+            <span class="client-logo-text">Pinnacle Retail</span>
+            <span class="client-logo-text">Atlas Manufacturing</span>
+            <span class="client-logo-text">Meridian Textiles</span>
+            <span class="client-logo-text">GlobalEdge Tech</span>
+            <span class="client-logo-text">Solaris Pharma</span>
+          </div>
+        </div>
+
+        <!-- Testimonial Cards -->
+        <div class="testimonials-grid">
+          <article class="testimonial-card">
+            <div class="testimonial-stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <blockquote class="testimonial-quote">
+              "DSLogistics transformed our Asia-to-US supply chain. We cut transit times by 22% and reduced customs clearance delays from days to hours. Their dashboard gives us real-time visibility we never had before."
+            </blockquote>
+            <div class="testimonial-author">
+              <img src="images/testimonial-1.png" alt="Portrait of Marcus Reinhardt" class="author-avatar" loading="lazy">
+              <div class="author-info">
+                <span class="author-name">Marcus Reinhardt</span>
+                <span class="author-role">VP of Supply Chain, <strong>Vertex Industries</strong></span>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card featured">
+            <div class="testimonial-stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <blockquote class="testimonial-quote">
+              "We moved 12,000 TEUs through DSLogistics last year with 99.6% on-time delivery. Their automated HS code engine alone saved our compliance team 300+ hours. It's been a game-changer for our operations."
+            </blockquote>
+            <div class="testimonial-author">
+              <img src="images/testimonial-2.png" alt="Portrait of Priya Venkatesh" class="author-avatar" loading="lazy">
+              <div class="author-info">
+                <span class="author-name">Priya Venkatesh</span>
+                <span class="author-role">Director of Logistics, <strong>NovaTrade Co.</strong></span>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card">
+            <div class="testimonial-stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <blockquote class="testimonial-quote">
+              "The carbon offset ledger was a key factor for us. DSLogistics not only optimized our freight costs by 18%, but helped us meet our ESG commitments with transparent emission reporting across every shipment."
+            </blockquote>
+            <div class="testimonial-author">
+              <img src="images/testimonial-3.png" alt="Portrait of Angela Okafor" class="author-avatar" loading="lazy">
+              <div class="author-info">
+                <span class="author-name">Angela Okafor</span>
+                <span class="author-role">Chief Sustainability Officer, <strong>Pinnacle Retail</strong></span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action Banner -->
+    <section class="cta-banner-section">
+      <div class="container cta-container">
+        <div class="cta-content-wrapper">
+          <h2 class="cta-title">Streamline Your Global Logistics Today</h2>
+          <p class="cta-text">Join thousands of shippers using DS Logistics' supply chain solutions to optimize costs, reduce customs bottlenecks, and secure reliable capacity.</p>
+          <div class="cta-actions">
+            <a href="#hero-widget" class="btn btn-primary btn-lg">Get An Instant Quote</a>
+            <a href="#hero-widget" class="btn btn-secondary-outline btn-lg">Schedule Platform Demo</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer Section -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-brand-column">
+        <a href="#" class="logo footer-logo" aria-label="DS Logistics Homepage">
+          <span class="logo-accent">DS</span>Logistics<span class="logo-dot">.</span>
+        </a>
+        <p class="brand-tagline">Connecting trade nodes, simplifying supply chains through intelligent software.</p>
+        <div class="theme-switcher-footer">
+          <span class="theme-label">Interface Mode:</span>
+          <button id="theme-btn-light" class="theme-btn" type="button">Light</button>
+          <button id="theme-btn-dark" class="theme-btn" type="button">Dark</button>
+        </div>
+      </div>
+
+      <div class="footer-links-grid">
+        <div class="footer-column">
+          <span class="footer-heading">Logistics Solutions</span>
+          <ul class="footer-links">
+            <li><a href="#services">Ocean Freight Forwarding</a></li>
+            <li><a href="#services">Air Cargo Logistics</a></li>
+            <li><a href="#services">Land Distribution Routing</a></li>
+            <li><a href="#services">Order Consolidation Hubs</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-column">
+          <span class="footer-heading">Trade Technology</span>
+          <ul class="footer-links">
+            <li><a href="#platform">DSLogistics Dashboard v2</a></li>
+            <li><a href="#platform">Automated HS Code Finder</a></li>
+            <li><a href="#platform">Carbon Offset Ledger</a></li>
+            <li><a href="#platform">Developer API Endpoints</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <span class="footer-heading">Company Information</span>
+          <ul class="footer-links">
+            <li><a href="#">About DS Logistics</a></li>
+            <li><a href="#">Careers at DS Logistics</a></li>
+            <li><a href="#">Security & Compliance</a></li>
+            <li><a href="#">Contact Support</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    <div class="container footer-bottom">
+      <p class="copyright">&copy; 2026 DS Logistics Inc. All rights reserved. Trade Simplified.</p>
+      <ul class="legal-links">
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms of Service</a></li>
+        <li><a href="#">Customs Power of Attorney</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <!-- JavaScript Interactions -->
+  <script src="script.js"></script>
+</body>
+</html>
