@@ -544,6 +544,10 @@
     border-radius: var(--border-radius-lg);
     overflow: hidden;
     box-shadow: var(--shadow-lg);
+    min-height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .hero-visual-image {
@@ -1844,6 +1848,11 @@
   .hero-widget-card {
     width: 85%;
     max-width: 350px;
+  }
+
+  .platform-layout {
+    grid-template-columns: 1fr;
+    gap: var(--space-md);
   }
 
   .platform-layout {
